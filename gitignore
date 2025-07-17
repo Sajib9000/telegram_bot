@@ -1,0 +1,17 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+
+# Python virtual environment
+venv/
+.env/
+
+# Dependency directories
+node_modules/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Logs
+*.log

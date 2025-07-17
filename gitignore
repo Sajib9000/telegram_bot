@@ -1,17 +1,10 @@
-# Python bytecode files
+# Ignore Python bytecode files
 __pycache__/
 *.pyc
 
-# Python virtual environment
+# Ignore virtual environment
 venv/
-.env/
 
-# Dependency directories
-node_modules/
+# Ignore .env file (if storing environment variables)
+.env
 
-# IDE specific files
-.idea/
-.vscode/
-
-# Logs
-*.log

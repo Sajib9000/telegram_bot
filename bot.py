@@ -5,7 +5,7 @@ def start(update, context):
     update.message.reply_text("Hello! I am your bot!")
 
 def main():
-    # Replace 'YOUR_API_TOKEN' with your actual Bot API Token
+    # Replace '7532406971:AAFAKnKQ3mS00UUSy-beb1LhHGTIDA0l65E' with your actual Bot API Token
     updater = Updater("YOUR_API_TOKEN", use_context=True)
 
     dp = updater.dispatcher
